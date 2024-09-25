@@ -286,187 +286,187 @@ def main():
 
     #1 - OPERACOES PONTO A PONTO
     #Negativo
-    Negativo('lena_gray_512.tif')
-    Negativo('cameraman.tif')
-    Negativo('house.tif')
+    Negativo('img/lena_gray_512.tif')
+    Negativo('img/cameraman.tif')
+    Negativo('img/house.tif')
 
     #Centro Preto
-    centroPreto('lena_gray_512.tif')
-    centroPreto('cameraman.tif')
-    centroPreto('house.tif')
+    centroPreto('img/lena_gray_512.tif')
+    centroPreto('img/cameraman.tif')
+    centroPreto('img/house.tif')
 
     # 4 Quadrados Brancos nos Cantos
-    quadradosBrancos('lena_gray_512.tif')
-    quadradosBrancos('cameraman.tif')
-    quadradosBrancos('house.tif')
+    quadradosBrancos('img/lena_gray_512.tif')
+    quadradosBrancos('img/cameraman.tif')
+    quadradosBrancos('img/house.tif')
 
     #Diminuir Brilho
-    diminuirBrilho('lena_gray_512.tif')
-    diminuirBrilho('cameraman.tif');
-    diminuirBrilho('house.tif')
+    diminuirBrilho('img/lena_gray_512.tif')
+    diminuirBrilho('img/cameraman.tif')
+    diminuirBrilho('img/house.tif')
 
     #2 - OPERACOES VIZINHANCA
     #Filtro Media (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
-    filtroMedia('lena_gray_512.tif', 1)
-    filtroMedia('cameraman.tif', 1)
-    filtroMedia('house.tif', 1)
+    filtroMedia('img/lena_gray_512.tif', 1)
+    filtroMedia('img/cameraman.tif', 1)
+    filtroMedia('img/house.tif', 1)
 
-    filtroMedia('lena_gray_512.tif', 2)
-    filtroMedia('cameraman.tif', 2)
-    filtroMedia('house.tif', 2)
+    filtroMedia('img/lena_gray_512.tif', 2)
+    filtroMedia('img/cameraman.tif', 2)
+    filtroMedia('img/house.tif', 2)
 
-    filtroMedia('lena_gray_512.tif', 3)
-    filtroMedia('cameraman.tif', 3)
-    filtroMedia('house.tif', 3)
+    filtroMedia('img/lena_gray_512.tif', 3)
+    filtroMedia('img/cameraman.tif', 3)
+    filtroMedia('img/house.tif', 3)
 
-    filtroMedia('lena_gray_512.tif', 4)
-    filtroMedia('cameraman.tif', 4)
-    filtroMedia('house.tif', 4)
+    filtroMedia('img/lena_gray_512.tif', 4)
+    filtroMedia('img/cameraman.tif', 4)
+    filtroMedia('img/house.tif', 4)
 
     #Filtro Mediana (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
-    filtroMediana('lena_gray_512.tif', 1)
-    filtroMediana('cameraman.tif', 1)
-    filtroMediana('house.tif', 1)
+    filtroMediana('img/lena_gray_512.tif', 1)
+    filtroMediana('img/cameraman.tif', 1)
+    filtroMediana('img/house.tif', 1)
 
-    filtroMediana('lena_gray_512.tif', 2)
-    filtroMediana('cameraman.tif', 2)
-    filtroMediana('house.tif', 2)
+    filtroMediana('img/lena_gray_512.tif', 2)
+    filtroMediana('img/cameraman.tif', 2)
+    filtroMediana('img/house.tif', 2)
 
-    filtroMediana('lena_gray_512.tif', 3)
-    filtroMediana('cameraman.tif', 3)
-    filtroMediana('house.tif', 3)
+    filtroMediana('img/lena_gray_512.tif', 3)
+    filtroMediana('img/cameraman.tif', 3)
+    filtroMediana('img/house.tif', 3)
 
-    filtroMediana('lena_gray_512.tif', 4)
-    filtroMediana('cameraman.tif', 4)
-    filtroMediana('house.tif', 4)
+    filtroMediana('img/lena_gray_512.tif', 4)
+    filtroMediana('img/cameraman.tif', 4)
+    filtroMediana('img/house.tif', 4)
 
 
     #Transformacao Geometrica
     #Escala (escolha a imagem e depois forneça se quer aumentar ou diminuir a imagem: 0 = aumentar / 1 = diminuir) | (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
-    escala('lena_gray_512.tif', 1, 1)
-    escala('cameraman.tif', 1, 1)
-    escala('house.tif', 1, 1)
+    escala('img/lena_gray_512.tif', 1, 1)
+    escala('img/cameraman.tif', 1, 1)
+    escala('img/house.tif', 1, 1)
     
-    escala('lena_gray_512.tif', 1, 2)
-    escala('cameraman.tif', 1, 2)
-    escala('house.tif', 1, 2)
+    escala('img/lena_gray_512.tif', 1, 2)
+    escala('img/cameraman.tif', 1, 2)
+    escala('img/house.tif', 1, 2)
 
 
-    escala('lena_gray_512.tif', 1, 3)
-    escala('cameraman.tif', 1, 3)
-    escala('house.tif', 1, 3)
+    escala('img/lena_gray_512.tif', 1, 3)
+    escala('img/cameraman.tif', 1, 3)
+    escala('img/house.tif', 1, 3)
 
 
-    escala('lena_gray_512.tif', 1, 4)
-    escala('cameraman.tif', 1, 4)
-    escala('house.tif', 1, 4)
+    escala('img/lena_gray_512.tif', 1, 4)
+    escala('img/cameraman.tif', 1, 4)
+    escala('img/house.tif', 1, 4)
 
 
-    escala('lena_gray_512.tif', 0, 1)
-    escala('cameraman.tif', 0, 1)
-    escala('house.tif', 0, 1)
+    escala('img/lena_gray_512.tif', 0, 1)
+    escala('img/cameraman.tif', 0, 1)
+    escala('img/house.tif', 0, 1)
 
 
-    escala('lena_gray_512.tif', 0, 2)
-    escala('cameraman.tif', 0, 2)
-    escala('house.tif', 0, 2)
+    escala('img/lena_gray_512.tif', 0, 2)
+    escala('img/cameraman.tif', 0, 2)
+    escala('img/house.tif', 0, 2)
 
 
-    escala('lena_gray_512.tif', 0, 3)
-    escala('cameraman.tif', 0, 3)
-    escala('house.tif', 0, 3)
+    escala('img/lena_gray_512.tif', 0, 3)
+    escala('img/cameraman.tif', 0, 3)
+    escala('img/house.tif', 0, 3)
 
 
-    escala('lena_gray_512.tif', 0, 4)
-    escala('cameraman.tif', 0, 4)
-    escala('house.tif', 0, 4)
+    escala('img/lena_gray_512.tif', 0, 4)
+    escala('img/cameraman.tif', 0, 4)
+    escala('img/house.tif', 0, 4)
 
 
 
     #Rotacao (graus) (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
     #Rotacao 45 graus
-    rotacao('lena_gray_512.tif', 45, 1)
-    rotacao('cameraman.tif', 45, 1)
-    rotacao('house.tif', 45, 1)
+    rotacao('img/lena_gray_512.tif', 45, 1)
+    rotacao('img/cameraman.tif', 45, 1)
+    rotacao('img/house.tif', 45, 1)
 
-    rotacao('lena_gray_512.tif', 45, 2)
-    rotacao('cameraman.tif', 45, 2)
-    rotacao('house.tif', 45, 2)
+    rotacao('img/lena_gray_512.tif', 45, 2)
+    rotacao('img/cameraman.tif', 45, 2)
+    rotacao('img/house.tif', 45, 2)
 
-    rotacao('lena_gray_512.tif', 45, 3)
-    rotacao('cameraman.tif', 45, 3)
-    rotacao('house.tif', 45, 3)
+    rotacao('img/lena_gray_512.tif', 45, 3)
+    rotacao('img/cameraman.tif', 45, 3)
+    rotacao('img/house.tif', 45, 3)
 
-    rotacao('lena_gray_512.tif', 45, 4)
-    rotacao('cameraman.tif', 45, 4)
-    rotacao('house.tif', 45, 4)
+    rotacao('img/lena_gray_512.tif', 45, 4)
+    rotacao('img/cameraman.tif', 45, 4)
+    rotacao('img/house.tif', 45, 4)
     
-    rotacao('lena_gray_512.tif', 90, 1)
-    rotacao('cameraman.tif', 90, 1)
-    rotacao('house.tif', 90, 1)
+    rotacao('img/lena_gray_512.tif', 90, 1)
+    rotacao('img/cameraman.tif', 90, 1)
+    rotacao('img/house.tif', 90, 1)
 
-    rotacao('lena_gray_512.tif', 90, 2)
-    rotacao('cameraman.tif', 90, 2)
-    rotacao('house.tif', 90, 2)
+    rotacao('img/lena_gray_512.tif', 90, 2)
+    rotacao('img/cameraman.tif', 90, 2)
+    rotacao('img/house.tif', 90, 2)
 
-    rotacao('lena_gray_512.tif', 90, 3)
-    rotacao('cameraman.tif', 90, 3)
-    rotacao('house.tif', 90, 3)
+    rotacao('img/lena_gray_512.tif', 90, 3)
+    rotacao('img/cameraman.tif', 90, 3)
+    rotacao('img/house.tif', 90, 3)
 
-    rotacao('lena_gray_512.tif', 90, 4)
-    rotacao('cameraman.tif', 90, 4)
-    rotacao('house.tif', 90, 4)
+    rotacao('img/lena_gray_512.tif', 90, 4)
+    rotacao('img/cameraman.tif', 90, 4)
+    rotacao('img/house.tif', 90, 4)
 
-    rotacao('lena_gray_512.tif', 100, 1)
-    rotacao('cameraman.tif', 100, 1)
-    rotacao('house.tif', 100, 1)
+    rotacao('img/lena_gray_512.tif', 100, 1)
+    rotacao('img/cameraman.tif', 100, 1)
+    rotacao('img/house.tif', 100, 1)
 
-    rotacao('lena_gray_512.tif', 100, 2)
-    rotacao('cameraman.tif', 100, 2)
-    rotacao('house.tif', 100, 2)
+    rotacao('img/lena_gray_512.tif', 100, 2)
+    rotacao('img/cameraman.tif', 100, 2)
+    rotacao('img/house.tif', 100, 2)
 
-    rotacao('lena_gray_512.tif', 100, 3)
-    rotacao('cameraman.tif', 100, 3)
-    rotacao('house.tif', 100, 3)
+    rotacao('img/lena_gray_512.tif', 100, 3)
+    rotacao('img/cameraman.tif', 100, 3)
+    rotacao('img/house.tif', 100, 3)
 
-    rotacao('lena_gray_512.tif', 100, 4)
-    rotacao('cameraman.tif', 100, 4)
-    rotacao('house.tif', 100, 4)
+    rotacao('img/lena_gray_512.tif', 100, 4)
+    rotacao('img/cameraman.tif', 100, 4)
+    rotacao('img/house.tif', 100, 4)
 
     #Translacao
     #Translacao com X e Y que quiser  (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
-    translacao('lena_gray_512.tif', 100, 100, 1)
-    translacao('cameraman.tif', 100, 100, 1)
-    translacao('house.tif', 100, 100, 1)
+    translacao('img/lena_gray_512.tif', 100, 100, 1)
+    translacao('img/cameraman.tif', 100, 100, 1)
+    translacao('img/house.tif', 100, 100, 1)
 
-    translacao('lena_gray_512.tif', 100, 100, 2)
-    translacao('cameraman.tif', 100, 100, 2)
-    translacao('house.tif', 100, 100, 2)
+    translacao('img/lena_gray_512.tif', 100, 100, 2)
+    translacao('img/cameraman.tif', 100, 100, 2)
+    translacao('img/house.tif', 100, 100, 2)
 
-    translacao('lena_gray_512.tif', 100, 100, 3)
-    translacao('cameraman.tif', 100, 100, 3)
-    translacao('house.tif', 100, 100, 3)
+    translacao('img/lena_gray_512.tif', 100, 100, 3)
+    translacao('img/cameraman.tif', 100, 100, 3)
+    translacao('img/house.tif', 100, 100, 3)
 
-    translacao('lena_gray_512.tif', 100, 100, 4)
-    translacao('cameraman.tif', 100, 100, 4)
-    translacao('house.tif', 100, 100, 4)
+    translacao('img/lena_gray_512.tif', 100, 100, 4)
+    translacao('img/cameraman.tif', 100, 100, 4)
+    translacao('img/house.tif', 100, 100, 4)
 
     #Translacao em 35 pixels no X e 45 pixels no Y  (1 = opencv / 2 = numpy / 3 = pillow / 4 = scipy)
-    translacao('lena_gray_512.tif', 35, 45,1)
-    translacao('cameraman.tif', 35, 45,1)
-    translacao('house.tif', 35, 45,1)
+    translacao('img/lena_gray_512.tif', 35, 45,1)
+    translacao('img/cameraman.tif', 35, 45,1)
+    translacao('img/house.tif', 35, 45,1)
 
-    translacao('lena_gray_512.tif', 35, 45,2)
-    translacao('cameraman.tif', 35, 45,2)
-    translacao('house.tif', 35, 45,2)
+    translacao('img/lena_gray_512.tif', 35, 45,2)
+    translacao('img/cameraman.tif', 35, 45,2)
+    translacao('img/house.tif', 35, 45,2)
 
-    translacao('lena_gray_512.tif', 35, 45,3)
-    translacao('cameraman.tif', 35, 45,3)
-    translacao('house.tif', 35, 45,3)
+    translacao('img/lena_gray_512.tif', 35, 45,3)
+    translacao('img/cameraman.tif', 35, 45,3)
+    translacao('img/house.tif', 35, 45,3)
 
-    translacao('lena_gray_512.tif', 35, 45,4)
-    translacao('cameraman.tif', 35, 45,4)
-    translacao('house.tif', 35, 45,4)
+    translacao('img/lena_gray_512.tif', 35, 45,4)
+    translacao('img/cameraman.tif', 35, 45,4)
+    translacao('img/house.tif', 35, 45,4)
 
 if __name__ == "__main__":
     main()
