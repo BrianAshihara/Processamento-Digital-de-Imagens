@@ -44,7 +44,7 @@ def codifica_cinza(imagem, message):
             else:
                 break
     img_new = Image.fromarray(newImg)
-    img_new.save("house_encoded.tif")
+    img_new.save("img/house_encoded.tif")
 
     plot(img, newImg, "Imagem com Mensagem Oculta")
 
@@ -94,7 +94,7 @@ def codifica_rgb(imagem, message):
 
     plot(img, newImg, "Imagem Colorida com Mensagem Oculta")
 
-    img_new.save('lena_color_encoded.tif')
+    img_new.save('img/lena_color_encoded.tif')
 
 
 def decodifica_rgb(imagem):
@@ -230,13 +230,13 @@ def main():
 
   #ESTEGANOGRAFIA TONS DE CINZA
   codifica_cinza('img/house.tif', 'processamento')
-  msgEscondida = decodifica_cinza('house_encoded.tif')
+  msgEscondida = decodifica_cinza('img/house_encoded.tif')
   print("\nMensagem oculta extraída:", msgEscondida)
 
 
   #ESTEGANOGRAFIA RGB
   codifica_rgb('img/lena_color.tif', 'processamento')
-  msgEscondida = decodifica_rgb('lena_color_encoded.tif')
+  msgEscondida = decodifica_rgb('img/lena_color_encoded.tif')
   print("\nMensagem oculta extraída:", msgEscondida)
 
   #Transformacao logaritmica
